@@ -129,7 +129,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               Our Services
             </h2>
-            <p className="text-primary-700 text-lg max-w-2xl mx-auto font-medium">
+            <p className="text-primary-800 text-lg max-w-2xl mx-auto font-bold">
               We offer comprehensive digital marketing solutions to help your business thrive in the digital world.
             </p>
           </div>
@@ -144,7 +144,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-primary-900 mb-3 group-hover:text-secondary-600 transition-colors duration-300">
                   {service.title}
                 </h3>
-                <p className="text-primary-700 font-medium leading-relaxed">
+                <p className="text-primary-800 font-bold leading-relaxed">
                   {service.description}
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-200">
@@ -195,7 +195,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               What Our Clients Say
             </h2>
-            <p className="text-primary-700 text-lg font-medium">
+            <p className="text-primary-800 text-lg font-bold">
               Real results from real businesses
             </p>
           </div>
@@ -231,7 +231,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               Why Choose freelance
             </h2>
-            <p className="text-primary-700 text-lg font-medium">
+            <p className="text-primary-800 text-lg font-bold">
               We're not just another marketing agency. We're your growth partner.
             </p>
           </div>
@@ -240,7 +240,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">📊</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Data-Driven Approach</h3>
-              <p className="text-primary-700 font-medium">
+              <p className="text-primary-800 font-bold">
                 Every decision backed by analytics and real-time insights. We don't guess—we measure, analyze, and optimize for maximum ROI.
               </p>
             </div>
@@ -248,7 +248,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">✅</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Proven Track Record</h3>
-              <p className="text-primary-700 font-medium">
+              <p className="text-primary-800 font-bold">
                 100+ successful campaigns across diverse industries. Our portfolio speaks volumes—delivering consistent growth and exceeding targets.
               </p>
             </div>
@@ -256,7 +256,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">👥</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Expert Team</h3>
-              <p className="text-primary-700 font-medium">
+              <p className="text-primary-800 font-bold">
                 Certified professionals with years of experience in SEO, PPC, social media, and content marketing. Your success is our expertise.
               </p>
             </div>
@@ -264,7 +264,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">ROI Focused</h3>
-              <p className="text-primary-700 font-medium">
+              <p className="text-primary-800 font-bold">
                 We optimize campaigns for maximum return on your investment. Every marketing dollar is tracked and optimized for results.
               </p>
             </div>
@@ -272,7 +272,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Custom Solutions</h3>
-              <p className="text-primary-700 font-medium">
+              <p className="text-primary-800 font-bold">
                 Tailored strategies that align with your unique business goals. No cookie-cutter solutions—just customized excellence.
               </p>
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
             <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">🕐</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">24/7 Support</h3>
-              <p className="text-primary-700 font-medium">
+              <p className="text-primary-800 font-bold">
                 Round-the-clock availability for your campaigns. Whether it's an urgent update or a quick question, we're always here to help.
               </p>
             </div>
@@ -359,7 +359,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-primary-700 text-lg font-medium">
+            <p className="text-primary-800 text-lg font-bold">
               Find answers to common questions about our digital marketing services
             </p>
           </div>
@@ -370,7 +370,7 @@ export default function Home() {
                 What services does freelance offer?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="text-primary-700 font-medium mt-4">
+              <p className="text-primary-800 font-bold mt-4">
                 We offer comprehensive digital marketing services including SEO Optimization, PPC Management, Social Media Marketing, Content Marketing, Email Marketing, Analytics & Reporting, Conversion Rate Optimization, Video Marketing, and Web Design.
               </p>
             </details>
@@ -380,7 +380,7 @@ export default function Home() {
                 How long does it take to see results?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="text-primary-700 font-medium mt-4">
+              <p className="text-primary-800 font-bold mt-4">
                 Results vary by service. PPC campaigns can show immediate results, while SEO typically takes 3-6 months for significant improvements. We provide regular reports and transparent updates throughout the process to track progress.
               </p>
             </details>
@@ -390,7 +390,7 @@ export default function Home() {
                 What makes freelance different from other agencies?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="text-primary-700 font-medium mt-4">
+              <p className="text-primary-800 font-bold mt-4">
                 We combine data-driven strategies with personalized service. Our proven track record of 300% average ROI, transparent reporting, dedicated account managers, focus on long-term partnerships, and comprehensive customer support set us apart.
               </p>
             </details>
@@ -400,7 +400,7 @@ export default function Home() {
                 What is your pricing structure?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="text-primary-700 font-medium mt-4">
+              <p className="text-primary-800 font-bold mt-4">
                 We offer customized pricing based on your specific needs, goals, and budget. After an initial consultation, we create a tailored proposal that aligns with your objectives. Contact us for a free consultation and quote.
               </p>
             </details>
@@ -410,7 +410,7 @@ export default function Home() {
                 Do you work with businesses outside Varanasi?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="text-primary-700 font-medium mt-4">
+              <p className="text-primary-800 font-bold mt-4">
                 Yes! While we're based in Varanasi, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools for seamless communication.
               </p>
             </details>
@@ -420,14 +420,14 @@ export default function Home() {
                 How often will I receive updates on my campaigns?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="text-primary-700 font-medium mt-4">
+              <p className="text-primary-800 font-bold mt-4">
                 You'll have 24/7 access to your account dashboard for real-time data. Additionally, we provide weekly updates, monthly detailed reports, and quarterly strategy reviews with your dedicated account manager.
               </p>
             </details>
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-primary-700 text-lg font-medium mb-6">
+            <p className="text-primary-800 text-lg font-bold mb-6">
               Still have questions? We're here to help!
             </p>
             <Link
