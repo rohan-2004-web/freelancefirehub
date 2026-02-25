@@ -223,6 +223,222 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Why Choose Us Section */}
+      <section className="py-20 bg-accent-gray">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+              Why Choose freelance
+            </h2>
+            <p className="text-primary-700 text-lg font-medium">
+              We're not just another marketing agency. We're your growth partner.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+              <div className="text-4xl mb-4">📊</div>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Data-Driven Approach</h3>
+              <p className="text-primary-700 font-medium">
+                Every decision backed by analytics and real-time insights. We don't guess—we measure, analyze, and optimize for maximum ROI.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+              <div className="text-4xl mb-4">✅</div>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Proven Track Record</h3>
+              <p className="text-primary-700 font-medium">
+                100+ successful campaigns across diverse industries. Our portfolio speaks volumes—delivering consistent growth and exceeding targets.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+              <div className="text-4xl mb-4">👥</div>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Expert Team</h3>
+              <p className="text-primary-700 font-medium">
+                Certified professionals with years of experience in SEO, PPC, social media, and content marketing. Your success is our expertise.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">ROI Focused</h3>
+              <p className="text-primary-700 font-medium">
+                We optimize campaigns for maximum return on your investment. Every marketing dollar is tracked and optimized for results.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+              <div className="text-4xl mb-4">🎨</div>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Custom Solutions</h3>
+              <p className="text-primary-700 font-medium">
+                Tailored strategies that align with your unique business goals. No cookie-cutter solutions—just customized excellence.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+              <div className="text-4xl mb-4">🕐</div>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">24/7 Support</h3>
+              <p className="text-primary-700 font-medium">
+                Round-the-clock availability for your campaigns. Whether it's an urgent update or a quick question, we're always here to help.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Values Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+              Our Core Values
+            </h2>
+            <p className="text-primary-700 text-lg font-medium">
+              The principles that guide every decision we make
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-5xl mb-4">🎯</div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-3">Results-Driven</h3>
+              <p className="text-primary-700 font-medium leading-relaxed">
+                We focus on delivering measurable outcomes that directly impact your bottom line
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">🤝</div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-3">Transparency</h3>
+              <p className="text-primary-700 font-medium leading-relaxed">
+                Clear communication and honest reporting in everything we do
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">💡</div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-3">Innovation</h3>
+              <p className="text-primary-700 font-medium leading-relaxed">
+                Staying ahead of digital trends to give our clients a competitive edge
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">🏆</div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-3">Excellence</h3>
+              <p className="text-primary-700 font-medium leading-relaxed">
+                Committed to delivering the highest quality service in every project
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">📊</div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-3">Data-First</h3>
+              <p className="text-primary-700 font-medium leading-relaxed">
+                Every decision backed by analytics and performance metrics
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="text-5xl mb-4">💼</div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-3">Partnership</h3>
+              <p className="text-primary-700 font-medium leading-relaxed">
+                We see our clients as partners, invested in their long-term success
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-accent-gray">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-primary-700 text-lg font-medium">
+              Find answers to common questions about our digital marketing services
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                What services does freelance offer?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-primary-700 font-medium mt-4">
+                We offer comprehensive digital marketing services including SEO Optimization, PPC Management, Social Media Marketing, Content Marketing, Email Marketing, Analytics & Reporting, Conversion Rate Optimization, Video Marketing, and Web Design.
+              </p>
+            </details>
+
+            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                How long does it take to see results?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-primary-700 font-medium mt-4">
+                Results vary by service. PPC campaigns can show immediate results, while SEO typically takes 3-6 months for significant improvements. We provide regular reports and transparent updates throughout the process to track progress.
+              </p>
+            </details>
+
+            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                What makes freelance different from other agencies?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-primary-700 font-medium mt-4">
+                We combine data-driven strategies with personalized service. Our proven track record of 300% average ROI, transparent reporting, dedicated account managers, focus on long-term partnerships, and comprehensive customer support set us apart.
+              </p>
+            </details>
+
+            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                What is your pricing structure?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-primary-700 font-medium mt-4">
+                We offer customized pricing based on your specific needs, goals, and budget. After an initial consultation, we create a tailored proposal that aligns with your objectives. Contact us for a free consultation and quote.
+              </p>
+            </details>
+
+            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                Do you work with businesses outside Varanasi?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-primary-700 font-medium mt-4">
+                Yes! While we're based in Varanasi, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools for seamless communication.
+              </p>
+            </details>
+
+            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                How often will I receive updates on my campaigns?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-primary-700 font-medium mt-4">
+                You'll have 24/7 access to your account dashboard for real-time data. Additionally, we provide weekly updates, monthly detailed reports, and quarterly strategy reviews with your dedicated account manager.
+              </p>
+            </details>
+          </div>
+
+          <div className="mt-12 text-center">
+            <p className="text-primary-700 text-lg font-medium mb-6">
+              Still have questions? We're here to help!
+            </p>
+            <Link
+              href="/contact"
+              className="bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-8 py-4 rounded-lg font-bold text-lg inline-block transition-all duration-300 shadow-lg"
+            >
+              Contact Us Today
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

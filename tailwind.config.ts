@@ -34,11 +34,21 @@ const config: Config = {
           900: "#7c2d12",
           950: "#431407",
         },
-        accent: {
-          white: "#ffffff",
-          gray: "#f9fafb",
-          dark: "#111827",
-        },
+      },
+      backgroundColor: {
+        "accent-white": "#ffffff",
+        "accent-gray": "#f9fafb",
+        "accent-dark": "#111827",
+      },
+      textColor: {
+        "accent-white": "#ffffff",
+        "accent-gray": "#f9fafb",
+        "accent-dark": "#111827",
+      },
+      borderColor: {
+        "accent-white": "#ffffff",
+        "accent-gray": "#f9fafb",
+        "accent-dark": "#111827",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],

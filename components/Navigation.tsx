@@ -14,7 +14,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-accent-white shadow-md">
+    <nav className="sticky top-0 z-50 bg-accent-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -23,7 +23,7 @@ export default function Navigation() {
               <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-secondary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">F</span>
               </div>
-              <span className="text-xl font-bold text-primary-700">freelance</span>
+              <span className="text-xl font-bold text-primary-600">freelance</span>
             </div>
           </Link>
 
@@ -33,23 +33,23 @@ export default function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-300"
+                className="text-primary-600 hover:text-secondary-600 font-medium transition-colors duration-300"
               >
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              className="bg-secondary-600 hover:bg-secondary-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300"
+            <a
+              href="https://wa.me/917307260253"
+              className="bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-6 py-3 rounded-lg font-bold transition-all duration-300 flex gap-2 items-center hover:shadow-lg"
             >
-              Get Started
-            </Link>
+              WhatsApp
+            </a>
           </div>
 
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-gray-700"
+            className="md:hidden text-primary-600"
           >
             <svg
               className="w-6 h-6"
@@ -69,22 +69,22 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden bg-accent-gray border-t border-gray-200">
+          <div className="md:hidden bg-white border-t border-gray-200">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-2 text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                className="block px-4 py-2 text-primary-600 hover:bg-primary-50 hover:text-secondary-600 transition-colors"
               >
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              className="block m-4 bg-secondary-600 hover:bg-secondary-700 text-white px-6 py-2 rounded-lg font-medium text-center transition-colors duration-300"
+            <a
+              href="https://wa.me/917307260253"
+              className="block m-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white px-6 py-2 rounded-lg font-bold text-center transition-all duration-300 hover:shadow-lg"
             >
-              Get Started
-            </Link>
+              WhatsApp
+            </a>
           </div>
         )}
       </div>
