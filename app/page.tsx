@@ -87,7 +87,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/service"
-                  className="bg-white hover:bg-accent-white text-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 shadow-lg border-2 border-white"
+                  className="bg-gradient-to-r from-primary-100 to-secondary-100 hover:from-primary-200 hover:to-secondary-200 text-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 shadow-lg border-2 border-primary-200"
                 >
                   Our Services
                 </Link>
@@ -170,7 +170,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary-700 via-primary-600 to-secondary-600 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 right-10 w-40 h-40 bg-white rounded-full mix-blend-multiply filter blur-3xl" />
+          <div className="absolute top-10 right-10 w-40 h-40 bg-gradient-to-br from-secondary-300 to-primary-300 rounded-full mix-blend-multiply filter blur-3xl" />
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
@@ -181,7 +181,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="bg-white hover:bg-accent-white text-primary-700 px-8 py-4 rounded-lg font-bold text-lg inline-block transition-all duration-300 shadow-lg transform hover:scale-105"
+            className="bg-gradient-to-r from-primary-100 to-secondary-100 hover:from-primary-200 hover:to-secondary-200 text-primary-700 px-8 py-4 rounded-lg font-bold text-lg inline-block transition-all duration-300 shadow-lg transform hover:scale-105 border-2 border-primary-200"
           >
             Get In Touch Today
           </Link>
