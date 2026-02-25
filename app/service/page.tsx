@@ -250,6 +250,87 @@ export default function Services() {
           </Link>
         </div>
       </section>
+
+      {/* Why Choose Our Services */}
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">Why Choose Our Services</h2>
+          <p className="text-center text-gray-600 text-lg mb-12 max-w-3xl mx-auto">
+            We deliver exceptional results with a commitment to excellence and your success
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Container 1 */}
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary-600">
+              <div className="text-6xl mb-6 text-center">🎯</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Results-Driven Approach</h3>
+              <p className="text-gray-700 text-center mb-6">
+                We focus on delivering measurable results with data-driven strategies that impact your bottom line.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-2">
+                  <span className="text-primary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Proven track record</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-primary-600 font-bold">✓</span>
+                  <span className="text-gray-700">ROI focused strategies</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-primary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Real-time analytics</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Container 2 */}
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-secondary-600">
+              <div className="text-6xl mb-6 text-center">👥</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Expert Team</h3>
+              <p className="text-gray-700 text-center mb-6">
+                Our experienced professionals stay updated with industry trends and best practices.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-2">
+                  <span className="text-secondary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Certified experts</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-secondary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Years of experience</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-secondary-600 font-bold">✓</span>
+                  <span className="text-gray-700">24/7 support</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Container 3 */}
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary-600">
+              <div className="text-6xl mb-6 text-center">💡</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Innovative Solutions</h3>
+              <p className="text-gray-700 text-center mb-6">
+                We use cutting-edge tools and techniques to keep your business ahead of the competition.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-2">
+                  <span className="text-primary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Latest technologies</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-primary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Custom strategies</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="text-primary-600 font-bold">✓</span>
+                  <span className="text-gray-700">Continuous optimization</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
