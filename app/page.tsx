@@ -352,9 +352,74 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-primary-900 leading-tight">
+                About freelance
+              </h2>
+              <p className="text-primary-800 text-lg font-bold leading-relaxed">
+                Founded in 2019, freelance has established itself as one of Varanasi's most trusted digital marketing agencies. Our journey began with a simple mission: to help businesses transform their digital presence and achieve sustainable growth.
+              </p>
+              <p className="text-primary-800 text-lg font-bold leading-relaxed">
+                With a talented team of certified digital marketing professionals, we've successfully completed 200+ projects for clients across various industries. Our expertise spans from small startups to established enterprises, delivering measurable results consistently.
+              </p>
+              <div className="grid grid-cols-2 gap-6 pt-4">
+                <div>
+                  <div className="text-3xl font-bold text-secondary-600">200+</div>
+                  <p className="text-primary-700 font-medium">Projects Completed</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-secondary-600">50+</div>
+                  <p className="text-primary-700 font-medium">Happy Clients</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-secondary-600">300%</div>
+                  <p className="text-primary-700 font-medium">Avg. ROI Increase</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-secondary-600">5+</div>
+                  <p className="text-primary-700 font-medium">Years Experience</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Content - 3 Info Cards */}
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🎯</div>
+                <h3 className="text-2xl font-bold text-primary-900 mb-3">Our Mission</h3>
+                <p className="text-primary-800 font-bold">
+                  To empower businesses with innovative digital marketing solutions that drive growth, build brand authority, and create lasting customer relationships.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-white to-secondary-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">👁️</div>
+                <h3 className="text-2xl font-bold text-primary-900 mb-3">Our Vision</h3>
+                <p className="text-primary-800 font-bold">
+                  To become the preferred digital marketing partner for businesses seeking to unlock their full potential in the digital landscape through strategic, data-driven solutions.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+                <div className="text-4xl mb-4">🌟</div>
+                <h3 className="text-2xl font-bold text-primary-900 mb-3">Why Choose Us</h3>
+                <p className="text-primary-800 font-bold">
+                  Expert team + Data-driven strategies + Proven results + Transparent communication + 24/7 support = Your success partner.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               Frequently Asked Questions
@@ -364,66 +429,132 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="space-y-6">
-            <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group">
-              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
-                What services does freelance offer?
-                <span className="group-open:rotate-180 transition-transform">▼</span>
-              </summary>
-              <p className="text-primary-800 font-bold mt-4">
-                We offer comprehensive digital marketing services including SEO Optimization, PPC Management, Social Media Marketing, Content Marketing, Email Marketing, Analytics & Reporting, Conversion Rate Optimization, Video Marketing, and Web Design.
-              </p>
-            </details>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Left Column - 6 FAQs */}
+            <div className="space-y-6">
+              <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  What services does freelance offer?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  We offer comprehensive digital marketing services including SEO Optimization, PPC Management, Social Media Marketing, Content Marketing, Email Marketing, Analytics & Reporting, Conversion Rate Optimization, Video Marketing, and Web Design.
+                </p>
+              </details>
 
-            <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group">
-              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
-                How long does it take to see results?
-                <span className="group-open:rotate-180 transition-transform">▼</span>
-              </summary>
-              <p className="text-primary-800 font-bold mt-4">
-                Results vary by service. PPC campaigns can show immediate results, while SEO typically takes 3-6 months for significant improvements. We provide regular reports and transparent updates throughout the process to track progress.
-              </p>
-            </details>
+              <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  How long does it take to see results?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  Results vary by service. PPC campaigns can show immediate results, while SEO typically takes 3-6 months for significant improvements. We provide regular reports and transparent updates throughout the process to track progress.
+                </p>
+              </details>
 
-            <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group">
-              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
-                What makes freelance different from other agencies?
-                <span className="group-open:rotate-180 transition-transform">▼</span>
-              </summary>
-              <p className="text-primary-800 font-bold mt-4">
-                We combine data-driven strategies with personalized service. Our proven track record of 300% average ROI, transparent reporting, dedicated account managers, focus on long-term partnerships, and comprehensive customer support set us apart.
-              </p>
-            </details>
+              <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  What makes freelance different from other agencies?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  We combine data-driven strategies with personalized service. Our proven track record of 300% average ROI, transparent reporting, dedicated account managers, focus on long-term partnerships, and comprehensive customer support set us apart.
+                </p>
+              </details>
 
-            <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group">
-              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
-                What is your pricing structure?
-                <span className="group-open:rotate-180 transition-transform">▼</span>
-              </summary>
-              <p className="text-primary-800 font-bold mt-4">
-                We offer customized pricing based on your specific needs, goals, and budget. After an initial consultation, we create a tailored proposal that aligns with your objectives. Contact us for a free consultation and quote.
-              </p>
-            </details>
+              <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  What is your pricing structure?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  We offer customized pricing based on your specific needs, goals, and budget. After an initial consultation, we create a tailored proposal that aligns with your objectives. Contact us for a free consultation and quote.
+                </p>
+              </details>
 
-            <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group">
-              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
-                Do you work with businesses outside Varanasi?
-                <span className="group-open:rotate-180 transition-transform">▼</span>
-              </summary>
-              <p className="text-primary-800 font-bold mt-4">
-                Yes! While we're based in Varanasi, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools for seamless communication.
-              </p>
-            </details>
+              <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  Do you work with businesses outside Varanasi?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  Yes! While we're based in Varanasi, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools for seamless communication.
+                </p>
+              </details>
 
-            <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group">
-              <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
-                How often will I receive updates on my campaigns?
-                <span className="group-open:rotate-180 transition-transform">▼</span>
-              </summary>
-              <p className="text-primary-800 font-bold mt-4">
-                You'll have 24/7 access to your account dashboard for real-time data. Additionally, we provide weekly updates, monthly detailed reports, and quarterly strategy reviews with your dedicated account manager.
-              </p>
-            </details>
+              <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  How often will I receive updates on my campaigns?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  You'll have 24/7 access to your account dashboard for real-time data. Additionally, we provide weekly updates, monthly detailed reports, and quarterly strategy reviews with your dedicated account manager.
+                </p>
+              </details>
+            </div>
+
+            {/* Right Column - 6 FAQs */}
+            <div className="space-y-6">
+              <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  Can I track my campaign performance?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  Absolutely! We provide comprehensive tracking and analytics dashboards for all campaigns. You can monitor KPIs in real-time, from traffic and conversions to ROI and customer acquisition costs. Full transparency is our commitment.
+                </p>
+              </details>
+
+              <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  What is your contract duration?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  We offer flexible contract options ranging from project-based engagements to monthly retainers. Most clients benefit from ongoing partnerships for sustained growth. Discuss your specific needs during the consultation.
+                </p>
+              </details>
+
+              <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  Do you guarantee results?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  While no agency can guarantee specific results due to market variables, we guarantee our effort and expertise. Our track record shows consistent ROI improvement across all client sectors. We focus on measurable outcomes that matter to your business.
+                </p>
+              </details>
+
+              <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  How do you stay current with digital trends?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  Our team continuously trains on the latest digital marketing tools, algorithms, and strategies. We attend industry conferences, participate in certification programs, and stay updated with platform changes to ensure your campaigns are always ahead of the curve.
+                </p>
+              </details>
+
+              <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  What industries do you specialize in?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  We work with diverse industries including E-commerce, Tech Startups, Real Estate, Health & Wellness, Education, Finance, and Local Businesses. Our versatile approach means we bring valuable insights across sectors and markets.
+                </p>
+              </details>
+
+              <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group hover:shadow-lg transition-shadow">
+                <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
+                  How do I get started with freelance?
+                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                </summary>
+                <p className="text-primary-800 font-bold mt-4">
+                  Simply contact us through our website or call us directly. We'll schedule a free consultation to understand your business goals, current marketing efforts, and challenges. From there, we'll create a customized strategy and proposal tailored to your needs.
+                </p>
+              </details>
+            </div>
           </div>
 
           <div className="mt-12 text-center">
