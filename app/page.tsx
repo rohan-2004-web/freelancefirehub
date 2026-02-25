@@ -417,6 +417,144 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Form Section with Google Map */}
+      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+              Get In Touch With Us
+            </h2>
+            <p className="text-primary-800 text-lg font-bold">
+              Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Contact Form */}
+            <div className="bg-gradient-to-br from-white to-primary-50 rounded-2xl p-10 shadow-lg">
+              <h3 className="text-3xl font-bold text-primary-900 mb-8">Send us a Message</h3>
+              
+              <form className="space-y-6">
+                <div>
+                  <label className="block text-primary-900 font-bold mb-2">Name</label>
+                  <input
+                    type="text"
+                    placeholder="Your Full Name"
+                    required
+                    className="w-full px-5 py-3 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-600 font-medium text-gray-800 transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-primary-900 font-bold mb-2">Email</label>
+                  <input
+                    type="email"
+                    placeholder="your.email@example.com"
+                    required
+                    className="w-full px-5 py-3 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-600 font-medium text-gray-800 transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-primary-900 font-bold mb-2">Phone</label>
+                  <input
+                    type="tel"
+                    placeholder="+91 XXXXXXXXXX"
+                    className="w-full px-5 py-3 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-600 font-medium text-gray-800 transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-primary-900 font-bold mb-2">Service Interested In</label>
+                  <select
+                    className="w-full px-5 py-3 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-600 font-medium text-gray-800 transition-colors"
+                  >
+                    <option>Select a service</option>
+                    <option>SEO Optimization</option>
+                    <option>Social Media Marketing</option>
+                    <option>Content Marketing</option>
+                    <option>PPC Advertising</option>
+                    <option>Web Design</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-primary-900 font-bold mb-2">Message</label>
+                  <textarea
+                    placeholder="Tell us about your project..."
+                    rows={5}
+                    required
+                    className="w-full px-5 py-3 border-2 border-primary-200 rounded-lg focus:outline-none focus:border-primary-600 font-medium text-gray-800 transition-colors resize-none"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+
+            {/* Google Map and Info */}
+            <div className="space-y-6">
+              {/* Google Map */}
+              <div className="bg-gradient-to-br from-white to-secondary-50 rounded-2xl shadow-lg overflow-hidden h-80">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.7545821505137!2d82.98160752339068!3d25.32394622749436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e332a36c8d30d%3A0x7b83ef0c10b4a8d0!2sVaranasi%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full"
+                />
+              </div>
+
+              {/* Contact Info Cards */}
+              <div className="grid grid-cols-1 gap-4">
+                <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-6 shadow-md border-l-4 border-primary-600">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl">📍</div>
+                    <div>
+                      <h4 className="font-bold text-primary-900 mb-1">Location</h4>
+                      <p className="text-primary-700 font-medium">Varanasi, Uttar Pradesh, India</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-6 shadow-md border-l-4 border-secondary-600">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl">📞</div>
+                    <div>
+                      <h4 className="font-bold text-primary-900 mb-1">Phone</h4>
+                      <a href="tel:+917307260253" className="text-secondary-600 hover:text-secondary-700 font-bold">
+                        +91 73072 60253
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-6 shadow-md border-l-4 border-primary-600">
+                  <div className="flex items-start gap-4">
+                    <div className="text-3xl">✉️</div>
+                    <div>
+                      <h4 className="font-bold text-primary-900 mb-1">Email</h4>
+                      <a href="mailto:info@freelance.com" className="text-primary-600 hover:text-primary-700 font-bold">
+                        info@freelance.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
