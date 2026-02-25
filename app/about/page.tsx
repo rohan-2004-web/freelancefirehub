@@ -37,7 +37,7 @@ export default function About() {
       </section>
 
       {/* Who We Are Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -88,41 +88,41 @@ export default function About() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-primary-900 mb-12">Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-primary-900 mb-3">🎯 Results-Driven</h3>
               <p className="text-primary-700 font-medium">
                 We focus on delivering measurable results. Every strategy is data-backed and optimized for ROI.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-primary-900 mb-3">💡 Innovation</h3>
               <p className="text-primary-700 font-medium">
                 We stay ahead of industry trends and constantly innovate to provide cutting-edge solutions.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-primary-900 mb-3">🤝 Partnership</h3>
               <p className="text-primary-700 font-medium">
                 We treat every client as a partner. Your success is our success. We're invested in your growth.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-primary-900 mb-3">📊 Transparency</h3>
               <p className="text-primary-700 font-medium">
                 Regular reports and updates so you always know how your campaigns are performing.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-primary-900 mb-3">⚡ Excellence</h3>
               <p className="text-primary-700 font-medium">
                 We maintain the highest standards in everything we do, from strategy to execution.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-bold text-primary-900 mb-3">🚀 Growth-Focused</h3>
               <p className="text-primary-700 font-medium">
                 Your business growth is our mission. We're committed to scaling your success.
@@ -133,7 +133,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-primary-900 mb-12">Meet Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -149,11 +149,11 @@ export default function About() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-r from-primary-50 to-secondary-50">
+      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-primary-900 mb-12">Why Choose freelance?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-gradient-to-r from-white to-primary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
                 <h3 className="text-xl font-bold text-primary-900 mb-2">Proven Track Record</h3>
@@ -162,7 +162,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-gradient-to-r from-white to-secondary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
                 <h3 className="text-xl font-bold text-primary-900 mb-2">Expert Team</h3>
@@ -171,7 +171,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-gradient-to-r from-white to-primary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
                 <h3 className="text-xl font-bold text-primary-900 mb-2">Data-Driven Approach</h3>
@@ -180,7 +180,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-gradient-to-r from-white to-secondary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
                 <h3 className="text-xl font-bold text-primary-900 mb-2">24/7 Support</h3>
@@ -189,7 +189,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-gradient-to-r from-white to-primary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
                 <h3 className="text-xl font-bold text-primary-900 mb-2">Transparent Reporting</h3>
@@ -198,7 +198,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-gradient-to-r from-white to-secondary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
                 <h3 className="text-xl font-bold text-primary-900 mb-2">Customized Solutions</h3>

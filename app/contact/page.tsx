@@ -51,12 +51,12 @@ export default function Contact() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Info */}
             <div className="space-y-6">
-              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">📍 Address</h3>
                 <p className="text-primary-700 font-medium">
                   Varanasi, Uttar Pradesh<br/>
@@ -64,7 +64,7 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">📞 Phone</h3>
                 <a href="tel:+917307260253" className="text-secondary-600 hover:text-secondary-700 font-bold text-lg transition-colors">
                   +91 73072 60253
@@ -72,7 +72,7 @@ export default function Contact() {
                 <p className="text-primary-700 font-medium text-sm mt-2">Instant Response</p>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">💬 WhatsApp</h3>
                 <a href="https://wa.me/917307260253" className="bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-6 py-2 rounded-lg font-bold inline-block transition-all duration-300">
                   Chat Now
@@ -80,7 +80,7 @@ export default function Contact() {
                 <p className="text-primary-700 font-medium text-sm mt-2">Quick & Private</p>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">📧 Email</h3>
                 <a href="mailto:info@freelance.com" className="text-secondary-600 hover:text-secondary-700 font-bold transition-colors">
                   info@freelance.com
@@ -88,7 +88,7 @@ export default function Contact() {
                 <p className="text-primary-700 font-medium text-sm mt-2">Send Message</p>
               </div>
 
-              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">⏰ Availability</h3>
                 <p className="text-primary-700 font-medium">24/7 Available</p>
                 <p className="text-primary-700 text-sm mt-2">Always here to serve you</p>
@@ -97,7 +97,7 @@ export default function Contact() {
 
             {/* Contact Form */}
             <div className="lg:col-span-2">
-              <div className="bg-white rounded-xl p-8 shadow-md">
+              <div className="bg-gradient-to-br from-white to-secondary-50 rounded-xl p-8 shadow-md">
                 <h2 className="text-3xl font-bold text-primary-900 mb-6">Send us a Message</h2>
                 {isSubmitted ? (
                   <div className="text-center py-12">

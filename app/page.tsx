@@ -123,7 +123,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
@@ -138,7 +138,7 @@ export default function Home() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-l-4 border-secondary-500 hover:border-secondary-600 hover:translate-y-[-8px] group"
+                className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-l-4 border-secondary-500 hover:border-secondary-600 hover:translate-y-[-8px] group"
               >
                 <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
                 <h3 className="text-xl font-bold text-primary-900 mb-3 group-hover:text-secondary-600 transition-colors duration-300">
@@ -189,7 +189,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
@@ -204,7 +204,7 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="bg-accent-gray rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-secondary-500 hover:translate-y-[-8px]"
+                className="bg-gradient-to-br from-white to-secondary-50 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-secondary-500 hover:translate-y-[-8px]"
               >
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
@@ -225,7 +225,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
@@ -237,7 +237,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">📊</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Data-Driven Approach</h3>
               <p className="text-primary-800 font-bold">
@@ -245,7 +245,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">✅</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Proven Track Record</h3>
               <p className="text-primary-800 font-bold">
@@ -253,7 +253,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">👥</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Expert Team</h3>
               <p className="text-primary-800 font-bold">
@@ -261,7 +261,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">ROI Focused</h3>
               <p className="text-primary-800 font-bold">
@@ -269,7 +269,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Custom Solutions</h3>
               <p className="text-primary-800 font-bold">
@@ -277,7 +277,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">🕐</div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">24/7 Support</h3>
               <p className="text-primary-800 font-bold">
@@ -289,13 +289,13 @@ export default function Home() {
       </section>
 
       {/* Core Values Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               Our Core Values
             </h2>
-            <p className="text-primary-700 text-lg font-medium">
+            <p className="text-primary-800 text-lg font-bold">
               The principles that guide every decision we make
             </p>
           </div>
@@ -353,7 +353,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
@@ -365,7 +365,7 @@ export default function Home() {
           </div>
 
           <div className="space-y-6">
-            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+            <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group">
               <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
                 What services does freelance offer?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
@@ -375,7 +375,7 @@ export default function Home() {
               </p>
             </details>
 
-            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+            <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group">
               <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
                 How long does it take to see results?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
@@ -385,7 +385,7 @@ export default function Home() {
               </p>
             </details>
 
-            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+            <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group">
               <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
                 What makes freelance different from other agencies?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
@@ -395,7 +395,7 @@ export default function Home() {
               </p>
             </details>
 
-            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+            <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group">
               <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
                 What is your pricing structure?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
@@ -405,7 +405,7 @@ export default function Home() {
               </p>
             </details>
 
-            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+            <details className="bg-gradient-to-r from-white to-primary-50 rounded-xl p-6 shadow-md cursor-pointer group">
               <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
                 Do you work with businesses outside Varanasi?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
@@ -415,7 +415,7 @@ export default function Home() {
               </p>
             </details>
 
-            <details className="bg-white rounded-xl p-6 shadow-md cursor-pointer group">
+            <details className="bg-gradient-to-r from-white to-secondary-50 rounded-xl p-6 shadow-md cursor-pointer group">
               <summary className="flex justify-between items-center font-bold text-primary-900 text-lg">
                 How often will I receive updates on my campaigns?
                 <span className="group-open:rotate-180 transition-transform">▼</span>

@@ -121,13 +121,13 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600 hover:border-secondary-600 flex flex-col"
+                className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600 hover:border-secondary-600 flex flex-col"
               >
                 <div className="text-5xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
@@ -149,7 +149,7 @@ export default function Services() {
       </section>
 
       {/* Detailed Services */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {services.slice(0, 4).map((service, index) => (
             <div key={index} className={`mb-20 ${index > 0 ? 'border-t border-gray-200 pt-20' : ''}`}>
@@ -189,7 +189,7 @@ export default function Services() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
