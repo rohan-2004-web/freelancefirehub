@@ -58,11 +58,11 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-primary-600 via-primary-500 to-secondary-600 text-white overflow-hidden">
+      <section className="relative min-h-screen bg-gradient-to-br from-primary-700 via-primary-600 to-secondary-600 text-white overflow-hidden">
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl" />
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full mix-blend-multiply filter blur-3xl animation-pulse" />
+        <div className="absolute inset-0 opacity-15">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-secondary-400 rounded-full mix-blend-multiply filter blur-3xl" />
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary-400 rounded-full mix-blend-multiply filter blur-3xl animation-pulse" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
@@ -70,10 +70,10 @@ export default function Home() {
             {/* Left Content */}
             <div className="space-y-8">
               <div>
-                <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-4">
+                <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-4 text-white">
                   Grow Your Business with Digital Marketing
                 </h1>
-                <p className="text-xl text-gray-100 leading-relaxed">
+                <p className="text-lg md:text-xl text-white font-light leading-relaxed">
                   Welcome to freelance - the best digital marketing agency in Varanasi. We help businesses like yours reach their full potential online.
                 </p>
               </div>
@@ -81,13 +81,13 @@ export default function Home() {
               <div className="flex gap-4 flex-wrap">
                 <Link
                   href="/contact"
-                  className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
+                  className="bg-secondary-500 hover:bg-secondary-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Start Your Journey
                 </Link>
                 <Link
                   href="/service"
-                  className="bg-white hover:bg-gray-100 text-primary-600 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300"
+                  className="bg-white hover:bg-accent-white text-primary-700 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 shadow-lg border-2 border-white"
                 >
                   Our Services
                 </Link>
@@ -95,25 +95,25 @@ export default function Home() {
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 pt-8">
-                <div>
-                  <div className="text-3xl font-bold">50+</div>
-                  <p className="text-gray-200">Clients Served</p>
+                <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
+                  <div className="text-4xl font-bold text-secondary-300">50+</div>
+                  <p className="text-white font-medium">Clients Served</p>
                 </div>
-                <div>
-                  <div className="text-3xl font-bold">200+</div>
-                  <p className="text-gray-200">Projects Done</p>
+                <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
+                  <div className="text-4xl font-bold text-secondary-300">200+</div>
+                  <p className="text-white font-medium">Projects Done</p>
                 </div>
-                <div>
-                  <div className="text-3xl font-bold">5+</div>
-                  <p className="text-gray-200">Years Experience</p>
+                <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
+                  <div className="text-4xl font-bold text-secondary-300">5+</div>
+                  <p className="text-white font-medium">Years Experience</p>
                 </div>
               </div>
             </div>
 
             {/* Right Image */}
             <div className="relative">
-              <div className="bg-white/10 backdrop-blur rounded-2xl p-8 border border-white/20">
-                <div className="aspect-square bg-gradient-to-br from-secondary-400 to-primary-400 rounded-xl flex items-center justify-center text-white text-6xl">
+              <div className="bg-white/15 backdrop-blur rounded-2xl p-8 border-2 border-white/30 shadow-2xl">
+                <div className="aspect-square bg-gradient-to-br from-secondary-400 to-primary-500 rounded-xl flex items-center justify-center text-white text-6xl shadow-lg">
                   📈
                 </div>
               </div>
@@ -126,10 +126,10 @@ export default function Home() {
       <section className="py-20 bg-accent-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               Our Services
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-primary-700 text-lg max-w-2xl mx-auto font-medium">
               We offer comprehensive digital marketing solutions to help your business thrive in the digital world.
             </p>
           </div>
@@ -138,23 +138,28 @@ export default function Home() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-primary-600"
+                className="bg-white rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-l-4 border-secondary-500 hover:border-secondary-600 hover:translate-y-[-8px] group"
               >
-                <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
+                <h3 className="text-xl font-bold text-primary-900 mb-3 group-hover:text-secondary-600 transition-colors duration-300">
                   {service.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-primary-700 font-medium leading-relaxed">
                   {service.description}
                 </p>
+                <div className="mt-4 pt-4 border-t border-gray-200">
+                  <button className="text-secondary-600 font-bold hover:text-secondary-700 transition-colors">
+                    Learn More →
+                  </button>
+                </div>
               </div>
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-16">
             <Link
               href="/service"
-              className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-bold inline-block transition-colors duration-300"
+              className="bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-8 py-4 rounded-lg font-bold text-lg inline-block transition-all duration-300 shadow-lg transform hover:scale-105"
             >
               View All Services
             </Link>
@@ -163,17 +168,20 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+      <section className="py-20 bg-gradient-to-r from-primary-700 via-primary-600 to-secondary-600 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-10 right-10 w-40 h-40 bg-white rounded-full mix-blend-multiply filter blur-3xl" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Ready to Transform Your Business?
           </h2>
-          <p className="text-xl text-gray-100 mb-8">
-            Let's work together to achieve your digital marketing goals.
+          <p className="text-xl text-white font-light mb-8 leading-relaxed">
+            Let's work together to achieve your digital marketing goals and take your business to the next level.
           </p>
           <Link
             href="/contact"
-            className="bg-white hover:bg-gray-100 text-primary-600 px-8 py-4 rounded-lg font-bold text-lg inline-block transition-colors duration-300"
+            className="bg-white hover:bg-accent-white text-primary-700 px-8 py-4 rounded-lg font-bold text-lg inline-block transition-all duration-300 shadow-lg transform hover:scale-105"
           >
             Get In Touch Today
           </Link>
@@ -181,13 +189,13 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-accent-gray">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
               What Our Clients Say
             </h2>
-            <p className="text-gray-600 text-lg">
+            <p className="text-primary-700 text-lg font-medium">
               Real results from real businesses
             </p>
           </div>
@@ -196,19 +204,19 @@ export default function Home() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-shadow duration-300"
+                className="bg-accent-gray rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-secondary-500 hover:translate-y-[-8px]"
               >
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <span key={i} className="text-secondary-500 text-lg">★</span>
+                    <span key={i} className="text-secondary-600 text-lg">★</span>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-6 italic">
+                <p className="text-primary-900 mb-6 italic font-medium leading-relaxed">
                   "{testimonial.text}"
                 </p>
                 <div>
-                  <p className="font-bold text-gray-900">{testimonial.name}</p>
-                  <p className="text-gray-600 text-sm">{testimonial.company}</p>
+                  <p className="font-bold text-primary-900">{testimonial.name}</p>
+                  <p className="text-secondary-600 text-sm font-medium">{testimonial.company}</p>
                 </div>
               </div>
             ))}
