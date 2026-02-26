@@ -41,17 +41,12 @@ export default function Contact() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-primary to-danger text-background py-32">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-danger rounded-full mix-blend-multiply filter blur-3xl animate-pulse-slow" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary rounded-full mix-blend-multiply filter blur-3xl animate-pulse-slow" />
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-down leading-tight">
+      <section className="bg-background py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-down leading-tight text-main-text">
             Get In Touch
           </h1>
-          <p className="text-xl md:text-2xl text-background/90 font-light max-w-3xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-xl md:text-2xl text-light-text font-light max-w-3xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Ready to transform your digital presence? Contact us today for a free consultation.
           </p>
         </div>
