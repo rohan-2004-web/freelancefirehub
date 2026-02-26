@@ -113,12 +113,12 @@ export default function Services() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-secondary-600 text-white py-20">
+      <section className="bg-primary text-background py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
               <h1 className="text-5xl md:text-6xl font-bold mb-4">Our Services</h1>
-              <p className="text-xl text-gray-100 max-w-3xl">
+              <p className="text-xl text-main-text max-w-3xl">
                 Comprehensive digital marketing solutions to help your business thrive
               </p>
             </div>
@@ -136,25 +136,25 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600 hover:border-secondary-600 flex flex-col"
+                className="bg-card rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary hover:border-primary/80 flex flex-col"
               >
                 <div className="text-5xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-main-text mb-2">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-sm mb-4 flex-grow">
+                <p className="text-light-text text-sm mb-4 flex-grow">
                   {service.description}
                 </p>
-                <div className="text-primary-600 font-bold text-sm mb-4">
+                <div className="text-primary font-bold text-sm mb-4">
                   {service.price}
                 </div>
-                <button className="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 text-sm">
+                <button className="bg-primary hover:bg-primary/90 text-background px-4 py-2 rounded-lg font-medium transition-colors duration-300 text-sm">
                   Learn More
                 </button>
               </div>
@@ -164,35 +164,35 @@ export default function Services() {
       </section>
 
       {/* Detailed Services */}
-      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {services.slice(0, 4).map((service, index) => (
             <div key={index} className={`mb-20 ${index > 0 ? 'border-t border-gray-200 pt-20' : ''}`}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className={index % 2 === 1 ? 'md:order-2' : ''}>
-                  <div className="bg-gradient-to-br from-primary-100 to-secondary-100 rounded-xl p-12 flex items-center justify-center h-full">
+                  <div className="bg-card rounded-xl p-12 flex items-center justify-center h-full">
                     <div className="text-7xl">{service.icon}</div>
                   </div>
                 </div>
                 <div className={index % 2 === 1 ? 'md:order-1' : ''}>
-                  <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                  <h2 className="text-4xl font-bold text-main-text mb-4">
                     {service.title}
                   </h2>
-                  <p className="text-gray-700 text-lg mb-6">
+                  <p className="text-light-text text-lg mb-6">
                     {service.description}
                   </p>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Key Features:</h3>
+                  <h3 className="text-xl font-bold text-main-text mb-4">Key Features:</h3>
                   <ul className="space-y-3 mb-8">
                     {service.features.map((feature, i) => (
                       <li key={i} className="flex items-start gap-3">
-                        <span className="text-secondary-500 font-bold">✓</span>
-                        <span className="text-gray-700">{feature}</span>
+                        <span className="text-primary font-bold">✓</span>
+                        <span className="text-light-text">{feature}</span>
                       </li>
                     ))}
                   </ul>
                   <Link
                     href="/contact"
-                    className="bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-bold inline-block transition-colors duration-300"
+                    className="bg-primary hover:bg-primary/90 text-background px-6 py-3 rounded-lg font-bold inline-block transition-colors duration-300"
                   >
                     Get Started
                   </Link>
@@ -204,43 +204,43 @@ export default function Services() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Process</h2>
+          <h2 className="text-4xl font-bold text-center text-main-text mb-12">Our Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="relative">
-              <div className="bg-primary-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
+              <div className="bg-primary text-background rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
                 1
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Discovery</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-bold text-main-text mb-2">Discovery</h3>
+              <p className="text-light-text">
                 We analyze your business, goals, and target audience to create a strategic plan.
               </p>
             </div>
             <div className="relative">
-              <div className="bg-secondary-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
+              <div className="bg-primary text-background rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
                 2
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Strategy</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-bold text-main-text mb-2">Strategy</h3>
+              <p className="text-light-text">
                 We develop customized strategies tailored to your business needs and budget.
               </p>
             </div>
             <div className="relative">
-              <div className="bg-primary-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
+              <div className="bg-primary text-background rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
                 3
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Execution</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-bold text-main-text mb-2">Execution</h3>
+              <p className="text-light-text">
                 Our expert team implements the strategy with precision and attention to detail.
               </p>
             </div>
             <div className="relative">
-              <div className="bg-secondary-600 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
+              <div className="bg-primary text-background rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl mb-4">
                 4
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Growth</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-bold text-main-text mb-2">Growth</h3>
+              <p className="text-light-text">
                 We monitor, analyze, and optimize for continuous improvement and growth.
               </p>
             </div>
@@ -249,17 +249,17 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+      <section className="py-20 bg-primary text-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Start Your Digital Marketing Journey?
           </h2>
-          <p className="text-xl text-gray-100 mb-8">
+          <p className="text-xl text-light-text mb-8">
             Contact us today for a free consultation and let's discuss how we can help your business grow.
           </p>
           <Link
             href="/contact"
-            className="bg-white hover:bg-gray-100 text-primary-600 px-8 py-4 rounded-lg font-bold text-lg inline-block transition-colors duration-300"
+            className="bg-card hover:bg-card/90 text-primary px-8 py-4 rounded-lg font-bold text-lg inline-block transition-colors duration-300"
           >
             Schedule a Free Consultation
           </Link>
@@ -267,41 +267,41 @@ export default function Services() {
       </section>
 
       {/* Why Choose Our Services */}
-      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">Why Choose Our Services</h2>
+          <h2 className="text-4xl font-bold text-center text-main-text mb-4">Why Choose Our Services</h2>
           <p className="text-center text-gray-600 text-lg mb-12 max-w-3xl mx-auto">
             We deliver exceptional results with a commitment to excellence and your success
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Container 1 */}
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary-600">
+            <div className="bg-card rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary">
               <div className="text-6xl mb-6 text-center">🎯</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Results-Driven Approach</h3>
-              <p className="text-gray-700 text-center mb-6">
+              <h3 className="text-2xl font-bold text-main-text mb-4 text-center">Results-Driven Approach</h3>
+              <p className="text-light-text text-center mb-6">
                 We focus on delivering measurable results with data-driven strategies that impact your bottom line.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center gap-2">
-                  <span className="text-primary-600 font-bold">✓</span>
-                  <span className="text-gray-700">Proven track record</span>
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-light-text">Proven track record</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-primary-600 font-bold">✓</span>
-                  <span className="text-gray-700">ROI focused strategies</span>
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-light-text">ROI focused strategies</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-primary-600 font-bold">✓</span>
-                  <span className="text-gray-700">Real-time analytics</span>
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-light-text">Real-time analytics</span>
                 </li>
               </ul>
             </div>
 
             {/* Container 2 */}
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-secondary-600">
+            <div className="bg-card rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary">
               <div className="text-6xl mb-6 text-center">👥</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Expert Team</h3>
+              <h3 className="text-2xl font-bold text-main-text mb-4 text-center">Expert Team</h3>
               <p className="text-gray-700 text-center mb-6">
                 Our experienced professionals stay updated with industry trends and best practices.
               </p>
@@ -322,9 +322,9 @@ export default function Services() {
             </div>
 
             {/* Container 3 */}
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary-600">
+            <div className="bg-card rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-primary">
               <div className="text-6xl mb-6 text-center">💡</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Innovative Solutions</h3>
+              <h3 className="text-2xl font-bold text-main-text mb-4 text-center">Innovative Solutions</h3>
               <p className="text-gray-700 text-center mb-6">
                 We use cutting-edge tools and techniques to keep your business ahead of the competition.
               </p>

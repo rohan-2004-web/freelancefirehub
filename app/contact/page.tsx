@@ -41,17 +41,17 @@ export default function Contact() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-700 via-primary-600 to-secondary-600 text-white py-20">
+      <section className="bg-primary text-background py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Get In Touch</h1>
-          <p className="text-xl text-white font-light max-w-3xl mx-auto">
+          <p className="text-xl text-main-text font-light max-w-3xl mx-auto">
             Ready to transform your digital presence? Contact us today for a free consultation.
           </p>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Info */}
@@ -65,7 +65,7 @@ export default function Contact() {
               </div>
 
               <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">📞 Phone</h3>
+                <h3 className="text-2xl font-bold text-main-text mb-3">📞 Phone</h3>
                 <a href="tel:+917307260253" className="text-secondary-600 hover:text-secondary-700 font-bold text-lg transition-colors">
                   +91 73072 60253
                 </a>
@@ -73,14 +73,14 @@ export default function Contact() {
               </div>
 
               <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">💬 WhatsApp</h3>
+                <h3 className="text-2xl font-bold text-main-text mb-3">💬 WhatsApp</h3>
                 <a href="https://wa.me/917307260253" className="bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-6 py-2 rounded-lg font-bold inline-block transition-all duration-300">
                   Chat Now
                 </a>
                 <p className="text-gray-700 font-medium text-sm mt-2">Quick & Private</p>
               </div>
 
-              <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
+              <div className="bg-card rounded-xl p-8 shadow-md border-l-4 border-primary hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">📧 Email</h3>
                 <a href="mailto:info@freelance.com" className="text-secondary-600 hover:text-secondary-700 font-bold transition-colors">
                   info@freelance.com
@@ -89,7 +89,7 @@ export default function Contact() {
               </div>
 
               <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">⏰ Availability</h3>
+                <h3 className="text-2xl font-bold text-main-text mb-3">⏰ Availability</h3>
                 <p className="text-gray-700 font-medium">24/7 Available</p>
                 <p className="text-gray-700 text-sm mt-2">Always here to serve you</p>
               </div>

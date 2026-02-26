@@ -27,32 +27,32 @@ export default function About() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-700 via-primary-600 to-secondary-600 text-white py-20">
+      <section className="bg-primary text-background py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">About freelance</h1>
-          <p className="text-xl text-white font-light max-w-3xl mx-auto">
+          <p className="text-xl text-main-text font-light max-w-3xl mx-auto">
             Your trusted digital marketing partner in Varanasi delivering ROI-focused solutions
           </p>
         </div>
       </section>
 
       {/* Who We Are Section */}
-      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Who We Are</h2>
-              <p className="text-gray-700 text-lg mb-4 leading-relaxed font-medium">
+              <h2 className="text-4xl font-bold text-main-text mb-6">Who We Are</h2>
+              <p className="text-light-text text-lg mb-4 leading-relaxed font-medium">
                 freelance is a leading performance marketing agency based in Varanasi, specializing in data-driven digital marketing strategies that deliver measurable results. 
               </p>
-              <p className="text-gray-700 text-lg mb-4 leading-relaxed font-medium">
+              <p className="text-light-text text-lg mb-4 leading-relaxed font-medium">
                 With over 5 years of experience, 200+ successful campaigns, and a proven track record of 300% average ROI, we help businesses achieve their growth objectives through cutting-edge digital solutions.
               </p>
-              <p className="text-gray-700 text-lg leading-relaxed font-medium">
+              <p className="text-light-text text-lg leading-relaxed font-medium">
                 Our team of certified digital marketing experts combines creativity with analytics to craft customized solutions for SEO, PPC, social media, and more. We don't just run campaigns — we build long-term partnerships focused on your success.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary-600 to-secondary-600 rounded-2xl p-8 text-white text-center shadow-lg">
+            <div className="bg-card rounded-2xl p-8 text-main-text text-center shadow-lg">
               <div className="text-6xl mb-6">🎯</div>
               <h3 className="text-3xl font-bold mb-4">Our Mission</h3>
               <p className="text-lg leading-relaxed font-light">
@@ -68,19 +68,19 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-8 border border-white/20">
-              <div className="text-5xl font-bold mb-2 text-secondary-300">5+</div>
+              <div className="text-5xl font-bold mb-2 text-primary">5+</div>
               <p className="text-lg font-medium">Years of Excellence</p>
             </div>
             <div className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-8 border border-white/20">
-              <div className="text-5xl font-bold mb-2 text-secondary-300">200+</div>
+              <div className="text-5xl font-bold mb-2 text-primary">200+</div>
               <p className="text-lg font-medium">Successful Campaigns</p>
             </div>
             <div className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-8 border border-white/20">
-              <div className="text-5xl font-bold mb-2 text-secondary-300">50+</div>
+              <div className="text-5xl font-bold mb-2 text-primary">50+</div>
               <p className="text-lg font-medium">Happy Clients</p>
             </div>
             <div className="bg-white bg-opacity-10 backdrop-blur rounded-xl p-8 border border-white/20">
-              <div className="text-5xl font-bold mb-2 text-secondary-300">300%</div>
+              <div className="text-5xl font-bold mb-2 text-primary">300%</div>
               <p className="text-lg font-medium">Average ROI Growth</p>
             </div>
           </div>

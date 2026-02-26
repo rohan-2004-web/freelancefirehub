@@ -8,32 +8,47 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // global palette defined by client
+        background: "#0f172a",        // page background
+        card: "#111827",              // card/container bg
+        "main-text": "#e5e7eb",     // primary readable text
+        "light-text": "#9ca3af",    // secondary/light text
+        border: "#1f2937",           // generic border color
         primary: {
-          50: "#f0f7ff",
-          100: "#e1effe",
-          200: "#c2ddfe",
-          300: "#93c5fd",
-          400: "#60a5fa",
-          500: "#3b82f6",
-          600: "#2563eb",
-          700: "#1d4ed8",
-          800: "#1e40af",
-          900: "#1e3a8a",
-          950: "#172554",
+          // primary color shades (all set to the provided blue so existing
+          // utility classes like `primary-600` continue to work without
+          // having to rewrite all of them).  Using the same value keeps the
+          // site visually consistent.  If finer control is needed these can
+          // be tweaked later.
+          50: "#38bdf8",
+          100: "#38bdf8",
+          200: "#38bdf8",
+          300: "#38bdf8",
+          400: "#38bdf8",
+          500: "#38bdf8",
+          600: "#38bdf8",
+          700: "#38bdf8",
+          800: "#38bdf8",
+          900: "#38bdf8",
         },
         secondary: {
-          50: "#fff7ed",
-          100: "#ffedd5",
-          200: "#fed7aa",
-          300: "#fdba74",
-          400: "#fb923c",
-          500: "#f97316",
-          600: "#ea580c",
-          700: "#c2410c",
-          800: "#9a3412",
-          900: "#7c2d12",
-          950: "#431407",
+          // secondary mirrors primary so gradients/links still use the
+          // blue tone instead of the old orange palette.
+          50: "#38bdf8",
+          100: "#38bdf8",
+          200: "#38bdf8",
+          300: "#38bdf8",
+          400: "#38bdf8",
+          500: "#38bdf8",
+          600: "#38bdf8",
+          700: "#38bdf8",
+          800: "#38bdf8",
+          900: "#38bdf8",
         },
+        success: "#22c55e",
+        warning: "#facc15",
+        danger: "#ef4444",
+        // keep default utilities for white/gray if needed by not overriding them
       },
       backgroundColor: {
         "accent-white": "#ffffff",
