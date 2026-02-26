@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import FloatingForm from '@/components/FloatingForm';
 
 export default function Services() {
@@ -113,11 +114,24 @@ export default function Services() {
     <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-600 to-secondary-600 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">Our Services</h1>
-          <p className="text-xl text-gray-100 max-w-3xl mx-auto">
-            Comprehensive digital marketing solutions to help your business thrive
-          </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-center lg:text-left">
+              <h1 className="text-5xl md:text-6xl font-bold mb-4">Our Services</h1>
+              <p className="text-xl text-gray-100 max-w-3xl">
+                Comprehensive digital marketing solutions to help your business thrive
+              </p>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <Image
+                src="/hero/hero.png"
+                alt="Services"
+                width={500}
+                height={400}
+                className="w-full max-w-md rounded-lg shadow-2xl"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
