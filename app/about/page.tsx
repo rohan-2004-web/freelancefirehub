@@ -27,11 +27,19 @@ export default function About() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-primary text-background py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">About freelance</h1>
-          <p className="text-xl text-main-text font-light max-w-3xl mx-auto">
-            Your trusted digital marketing partner in Varanasi delivering ROI-focused solutions
+      <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-success text-background py-32">
+        <div className="absolute inset-0 opacity-25">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-success rounded-full mix-blend-multiply filter blur-3xl animate-pulse-slow" />
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary rounded-full mix-blend-multiply filter blur-3xl animate-pulse-slow" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-down leading-tight">
+            About freelance
+          </h1>
+          <p className="text-md md:text-2xl text-background/85 font-light max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            Your trusted digital marketing partner in Varanasi delivering
+            <span className="block mt-2 text-success font-semibold">ROI-focused solutions</span>
           </p>
         </div>
       </section>

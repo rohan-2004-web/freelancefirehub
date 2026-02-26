@@ -113,23 +113,39 @@ export default function Services() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-primary text-background py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gradient-to-r from-primary via-primary to-primary text-background py-32">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full mix-blend-multiply filter blur-3xl animate-pulse-slow" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-success rounded-full mix-blend-multiply filter blur-3xl animate-pulse-slow" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
-              <h1 className="text-5xl md:text-6xl font-bold mb-4">Our Services</h1>
-              <p className="text-xl text-main-text max-w-3xl">
-                Comprehensive digital marketing solutions to help your business thrive
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up leading-tight">
+                Our Services
+              </h1>
+              <p className="text-xl md:text-2xl text-background/90 max-w-3xl mb-8 animate-fade-in-up font-light leading-relaxed" style={{ animationDelay: '0.1s' }}>
+                Comprehensive digital marketing solutions to help your business thrive online
               </p>
+              <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+                <button className="bg-background hover:bg-background/90 text-primary px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                  Explore Services
+                </button>
+              </div>
             </div>
-            <div className="flex justify-center lg:justify-end">
-              <Image
-                src="/hero/hero.png"
-                alt="Services"
-                width={500}
-                height={400}
-                className="w-full max-w-md rounded-lg shadow-2xl"
-              />
+
+            <div className="flex justify-center lg:justify-end animate-fade-in-right">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary to-success rounded-2xl blur-2xl opacity-30 animate-pulse-slow" />
+                <Image
+                  src="/hero/hero.png"
+                  alt="Services"
+                  width={500}
+                  height={400}
+                  className="w-full max-w-md rounded-2xl shadow-2xl relative z-10 border-2 border-background/20"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -346,7 +362,7 @@ export default function Services() {
           </div>
         </div>
       </section>
-      
+
       {/* Floating Form Component */}
       <FloatingForm />
     </main>
