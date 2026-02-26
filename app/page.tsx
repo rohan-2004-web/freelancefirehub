@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const services = [
@@ -111,11 +112,15 @@ export default function Home() {
             </div>
 
             {/* Right Image */}
-            <div className="relative">
+            <div className="relative hidden md:block">
               <div className="bg-white/15 backdrop-blur rounded-2xl p-8 border-2 border-white/30 shadow-2xl">
-                <div className="aspect-square bg-gradient-to-br from-secondary-400 to-primary-500 rounded-xl flex items-center justify-center text-white text-6xl shadow-lg">
-                  📈
-                </div>
+                <Image 
+                  src="/hero/hero.png" 
+                  alt="Digital Marketing Hero"
+                  width={500}
+                  height={500}
+                  className="w-full h-auto rounded-xl shadow-lg"
+                />
               </div>
             </div>
           </div>
