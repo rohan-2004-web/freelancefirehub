@@ -91,43 +91,43 @@ export default function About() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Core Values</h2>
+          <h2 className="text-4xl font-bold text-center text-main-text mb-12 animate-fade-in-down">Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">🎯 Results-Driven</h3>
-              <p className="text-gray-700 font-medium">
+            <div className="bg-card rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow animate-fade-in-up" style={{ animationDelay: '0s' }}>
+              <h3 className="text-2xl font-bold text-main-text mb-3">🎯 Results-Driven</h3>
+              <p className="text-light-text font-medium">
                 We focus on delivering measurable results. Every strategy is data-backed and optimized for ROI.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">💡 Innovation</h3>
-              <p className="text-gray-700 font-medium">
+            <div className="bg-card rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+              <h3 className="text-2xl font-bold text-main-text mb-3">💡 Innovation</h3>
+              <p className="text-light-text font-medium">
                 We stay ahead of industry trends and constantly innovate to provide cutting-edge solutions.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">🤝 Partnership</h3>
-              <p className="text-gray-700 font-medium">
+            <div className="bg-card rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              <h3 className="text-2xl font-bold text-main-text mb-3">🤝 Partnership</h3>
+              <p className="text-light-text font-medium">
                 We treat every client as a partner. Your success is our success. We're invested in your growth.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">📊 Transparency</h3>
-              <p className="text-gray-700 font-medium">
+            <div className="bg-card rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+              <h3 className="text-2xl font-bold text-main-text mb-3">📊 Transparency</h3>
+              <p className="text-light-text font-medium">
                 Regular reports and updates so you always know how your campaigns are performing.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">⚡ Excellence</h3>
-              <p className="text-gray-700 font-medium">
+            <div className="bg-card rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+              <h3 className="text-2xl font-bold text-main-text mb-3">⚡ Excellence</h3>
+              <p className="text-light-text font-medium">
                 We maintain the highest standards in everything we do, from strategy to execution.
               </p>
             </div>
-            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">🚀 Growth-Focused</h3>
-              <p className="text-gray-700 font-medium">
+            <div className="bg-card rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+              <h3 className="text-2xl font-bold text-main-text mb-3">🚀 Growth-Focused</h3>
+              <p className="text-light-text font-medium">
                 Your business growth is our mission. We're committed to scaling your success.
               </p>
             </div>
@@ -136,15 +136,15 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Meet Our Team</h2>
+          <h2 className="text-4xl font-bold text-center text-main-text mb-12 animate-fade-in-down">Meet Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-gray-200">
+              <div key={index} className="bg-card rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-border animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="text-6xl mb-4">{member.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
-                <p className="text-secondary-600 font-medium">{member.role}</p>
+                <h3 className="text-xl font-bold text-main-text">{member.name}</h3>
+                <p className="text-primary font-medium">{member.role}</p>
               </div>
             ))}
           </div>
@@ -152,60 +152,60 @@ export default function About() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Why Choose freelance?</h2>
+          <h2 className="text-4xl font-bold text-center text-main-text mb-12 animate-fade-in-down">Why Choose freelance?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
-              <div className="text-3xl text-secondary-600 font-bold">✓</div>
+            <div className="flex gap-4 bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors shadow-sm animate-fade-in-up" style={{ animationDelay: '0s' }}>
+              <div className="text-3xl text-primary font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Track Record</h3>
-                <p className="text-gray-700 font-medium">
+                <h3 className="text-xl font-bold text-main-text mb-2">Proven Track Record</h3>
+                <p className="text-light-text font-medium">
                   Hundreds of successful campaigns that have helped businesses grow their revenue and market presence.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
-              <div className="text-3xl text-secondary-600 font-bold">✓</div>
+            <div className="flex gap-4 bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors shadow-sm animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+              <div className="text-3xl text-primary font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
-                <p className="text-gray-700 font-medium">
+                <h3 className="text-xl font-bold text-main-text mb-2">Expert Team</h3>
+                <p className="text-light-text font-medium">
                   Experienced professionals with expertise in all aspects of digital marketing.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
-              <div className="text-3xl text-secondary-600 font-bold">✓</div>
+            <div className="flex gap-4 bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors shadow-sm animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              <div className="text-3xl text-primary font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Data-Driven Approach</h3>
-                <p className="text-gray-700 font-medium">
+                <h3 className="text-xl font-bold text-main-text mb-2">Data-Driven Approach</h3>
+                <p className="text-light-text font-medium">
                   Every decision backed by analytics and real-time data to maximize your ROI.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
-              <div className="text-3xl text-secondary-600 font-bold">✓</div>
+            <div className="flex gap-4 bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors shadow-sm animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+              <div className="text-3xl text-primary font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">24/7 Support</h3>
-                <p className="text-gray-700 font-medium">
+                <h3 className="text-xl font-bold text-main-text mb-2">24/7 Support</h3>
+                <p className="text-light-text font-medium">
                   Dedicated support team available to answer your questions anytime.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
-              <div className="text-3xl text-secondary-600 font-bold">✓</div>
+            <div className="flex gap-4 bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors shadow-sm animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+              <div className="text-3xl text-primary font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Transparent Reporting</h3>
-                <p className="text-gray-700 font-medium">
+                <h3 className="text-xl font-bold text-main-text mb-2">Transparent Reporting</h3>
+                <p className="text-light-text font-medium">
                   Regular reports and updates so you always know how your campaigns are performing.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
-              <div className="text-3xl text-secondary-600 font-bold">✓</div>
+            <div className="flex gap-4 bg-card p-6 rounded-lg border border-border hover:border-primary transition-colors shadow-sm animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+              <div className="text-3xl text-primary font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Customized Solutions</h3>
-                <p className="text-gray-700 font-medium">
+                <h3 className="text-xl font-bold text-main-text mb-2">Customized Solutions</h3>
+                <p className="text-light-text font-medium">
                   Tailored strategies designed specifically for your business needs and goals.
                 </p>
               </div>
