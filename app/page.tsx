@@ -97,15 +97,15 @@ export default function Home() {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 pt-8">
                 <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
-                  <div className="text-4xl font-bold text-secondary-300">50+</div>
-                  <p className="text-white font-medium">Clients Served</p>
+                  <div className="text-4xl font-bold text-secondary-300">100+</div>
+                  <p className="text-white font-medium">Clients</p>
                 </div>
                 <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
-                  <div className="text-4xl font-bold text-secondary-300">200+</div>
-                  <p className="text-white font-medium">Projects Done</p>
+                  <div className="text-4xl font-bold text-secondary-300">80</div>
+                  <p className="text-white font-medium">Happy Clients</p>
                 </div>
                 <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
-                  <div className="text-4xl font-bold text-secondary-300">5+</div>
+                  <div className="text-4xl font-bold text-secondary-300">5</div>
                   <p className="text-white font-medium">Years Experience</p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Our Services
+              Services We Provide
             </h2>
             <p className="text-gray-700 text-lg max-w-2xl mx-auto font-bold">
               We offer comprehensive digital marketing solutions to help your business thrive in the digital world.
