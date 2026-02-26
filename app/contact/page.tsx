@@ -56,28 +56,28 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Info */}
             <div className="space-y-6">
-              <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">📍 Address</h3>
-                <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">📍 Address</h3>
+              <p className="text-gray-700 font-medium">
                   Varanasi, Uttar Pradesh<br/>
                   India
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">📞 Phone</h3>
+              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">📞 Phone</h3>
                 <a href="tel:+917307260253" className="text-secondary-600 hover:text-secondary-700 font-bold text-lg transition-colors">
                   +91 73072 60253
                 </a>
-                <p className="text-primary-700 font-medium text-sm mt-2">Instant Response</p>
+                <p className="text-gray-700 font-medium text-sm mt-2">Instant Response</p>
               </div>
 
-              <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">💬 WhatsApp</h3>
+              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">💬 WhatsApp</h3>
                 <a href="https://wa.me/917307260253" className="bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-6 py-2 rounded-lg font-bold inline-block transition-all duration-300">
                   Chat Now
                 </a>
-                <p className="text-primary-700 font-medium text-sm mt-2">Quick & Private</p>
+                <p className="text-gray-700 font-medium text-sm mt-2">Quick & Private</p>
               </div>
 
               <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
@@ -85,32 +85,32 @@ export default function Contact() {
                 <a href="mailto:info@freelance.com" className="text-secondary-600 hover:text-secondary-700 font-bold transition-colors">
                   info@freelance.com
                 </a>
-                <p className="text-primary-700 font-medium text-sm mt-2">Send Message</p>
+                <p className="text-gray-700 font-medium text-sm mt-2">Send Message</p>
               </div>
 
-              <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md border-l-4 border-primary-600 hover:shadow-lg transition-shadow">
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">⏰ Availability</h3>
-                <p className="text-primary-700 font-medium">24/7 Available</p>
-                <p className="text-primary-700 text-sm mt-2">Always here to serve you</p>
+              <div className="bg-white rounded-xl p-8 shadow-md border-l-4 border-secondary-600 hover:shadow-lg transition-shadow">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">⏰ Availability</h3>
+                <p className="text-gray-700 font-medium">24/7 Available</p>
+                <p className="text-gray-700 text-sm mt-2">Always here to serve you</p>
               </div>
             </div>
 
             {/* Contact Form */}
             <div className="lg:col-span-2">
-              <div className="bg-gradient-to-br from-white to-secondary-50 rounded-xl p-8 shadow-md">
-                <h2 className="text-3xl font-bold text-primary-900 mb-6">Send us a Message</h2>
+              <div className="bg-white rounded-xl p-8 shadow-md">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Send us a Message</h2>
                 {isSubmitted ? (
                   <div className="text-center py-12">
                     <div className="text-6xl mb-4">✓</div>
-                    <h3 className="text-2xl font-bold text-primary-900 mb-2">Thank You!</h3>
-                    <p className="text-primary-700 font-medium">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Thank You!</h3>
+                    <p className="text-gray-700 font-medium">
                       We've received your message and will get back to you shortly.
                     </p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                      <label htmlFor="name" className="block text-primary-900 font-bold mb-2">
+                      <label htmlFor="name" className="block text-gray-900 font-bold mb-2">
                         Full Name *
                       </label>
                       <input
@@ -127,7 +127,7 @@ export default function Contact() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label htmlFor="email" className="block text-primary-900 font-bold mb-2">
+                        <label htmlFor="email" className="block text-gray-900 font-bold mb-2">
                           Email Address *
                         </label>
                         <input
@@ -142,7 +142,7 @@ export default function Contact() {
                         />
                       </div>
                       <div>
-                        <label htmlFor="phone" className="block text-primary-900 font-bold mb-2">
+                        <label htmlFor="phone" className="block text-gray-900 font-bold mb-2">
                           Phone Number
                         </label>
                         <input
@@ -158,7 +158,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                      <label htmlFor="company" className="block text-primary-900 font-bold mb-2">
+                      <label htmlFor="company" className="block text-gray-900 font-bold mb-2">
                         Company Name
                       </label>
                       <input
@@ -173,7 +173,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                      <label htmlFor="service" className="block text-primary-900 font-bold mb-2">
+                      <label htmlFor="service" className="block text-gray-900 font-bold mb-2">
                         Service of Interest *
                       </label>
                       <select
@@ -198,7 +198,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-primary-900 font-bold mb-2">
+                      <label htmlFor="message" className="block text-gray-900 font-bold mb-2">
                         Message *
                       </label>
                       <textarea

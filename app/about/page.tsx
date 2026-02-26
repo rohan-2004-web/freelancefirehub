@@ -41,21 +41,21 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-primary-900 mb-6">Who We Are</h2>
-              <p className="text-primary-700 text-lg mb-4 leading-relaxed font-medium">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">Who We Are</h2>
+              <p className="text-gray-700 text-lg mb-4 leading-relaxed font-medium">
                 freelance is a leading performance marketing agency based in Varanasi, specializing in data-driven digital marketing strategies that deliver measurable results. 
               </p>
-              <p className="text-primary-700 text-lg mb-4 leading-relaxed font-medium">
+              <p className="text-gray-700 text-lg mb-4 leading-relaxed font-medium">
                 With over 5 years of experience, 200+ successful campaigns, and a proven track record of 300% average ROI, we help businesses achieve their growth objectives through cutting-edge digital solutions.
               </p>
-              <p className="text-primary-700 text-lg leading-relaxed font-medium">
+              <p className="text-gray-700 text-lg leading-relaxed font-medium">
                 Our team of certified digital marketing experts combines creativity with analytics to craft customized solutions for SEO, PPC, social media, and more. We don't just run campaigns — we build long-term partnerships focused on your success.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl p-8 text-white text-center">
+            <div className="bg-gradient-to-br from-primary-600 to-secondary-600 rounded-2xl p-8 text-white text-center shadow-lg">
               <div className="text-6xl mb-6">🎯</div>
               <h3 className="text-3xl font-bold mb-4">Our Mission</h3>
-              <p className="text-lg leading-relaxed font-medium">
+              <p className="text-lg leading-relaxed font-light">
                 To empower businesses with cutting-edge digital marketing strategies that drive growth, maximize ROI, and create lasting impact in the digital landscape.
               </p>
             </div>
@@ -90,41 +90,41 @@ export default function About() {
       {/* Values Section */}
       <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-primary-900 mb-12">Our Core Values</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Core Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-primary-900 mb-3">🎯 Results-Driven</h3>
-              <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">🎯 Results-Driven</h3>
+              <p className="text-gray-700 font-medium">
                 We focus on delivering measurable results. Every strategy is data-backed and optimized for ROI.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-primary-900 mb-3">💡 Innovation</h3>
-              <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">💡 Innovation</h3>
+              <p className="text-gray-700 font-medium">
                 We stay ahead of industry trends and constantly innovate to provide cutting-edge solutions.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-primary-900 mb-3">🤝 Partnership</h3>
-              <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">🤝 Partnership</h3>
+              <p className="text-gray-700 font-medium">
                 We treat every client as a partner. Your success is our success. We're invested in your growth.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-primary-900 mb-3">📊 Transparency</h3>
-              <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">📊 Transparency</h3>
+              <p className="text-gray-700 font-medium">
                 Regular reports and updates so you always know how your campaigns are performing.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-primary-900 mb-3">⚡ Excellence</h3>
-              <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-primary-600 hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">⚡ Excellence</h3>
+              <p className="text-gray-700 font-medium">
                 We maintain the highest standards in everything we do, from strategy to execution.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold text-primary-900 mb-3">🚀 Growth-Focused</h3>
-              <p className="text-primary-700 font-medium">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-secondary-600 hover:shadow-xl transition-shadow">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">🚀 Growth-Focused</h3>
+              <p className="text-gray-700 font-medium">
                 Your business growth is our mission. We're committed to scaling your success.
               </p>
             </div>
@@ -135,12 +135,12 @@ export default function About() {
       {/* Team Section */}
       <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-primary-900 mb-12">Meet Our Team</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Meet Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-primary-100">
+              <div key={index} className="bg-white rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-gray-200">
                 <div className="text-6xl mb-4">{member.icon}</div>
-                <h3 className="text-xl font-bold text-primary-900">{member.name}</h3>
+                <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
                 <p className="text-secondary-600 font-medium">{member.role}</p>
               </div>
             ))}
@@ -151,58 +151,58 @@ export default function About() {
       {/* Why Choose Us */}
       <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center text-primary-900 mb-12">Why Choose freelance?</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Why Choose freelance?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex gap-4 bg-gradient-to-r from-white to-primary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">Proven Track Record</h3>
-                <p className="text-primary-700 font-medium">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Track Record</h3>
+                <p className="text-gray-700 font-medium">
                   Hundreds of successful campaigns that have helped businesses grow their revenue and market presence.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-gradient-to-r from-white to-secondary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">Expert Team</h3>
-                <p className="text-primary-700 font-medium">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
+                <p className="text-gray-700 font-medium">
                   Experienced professionals with expertise in all aspects of digital marketing.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-gradient-to-r from-white to-primary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">Data-Driven Approach</h3>
-                <p className="text-primary-700 font-medium">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Data-Driven Approach</h3>
+                <p className="text-gray-700 font-medium">
                   Every decision backed by analytics and real-time data to maximize your ROI.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-gradient-to-r from-white to-secondary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">24/7 Support</h3>
-                <p className="text-primary-700 font-medium">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">24/7 Support</h3>
+                <p className="text-gray-700 font-medium">
                   Dedicated support team available to answer your questions anytime.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-gradient-to-r from-white to-primary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">Transparent Reporting</h3>
-                <p className="text-primary-700 font-medium">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Transparent Reporting</h3>
+                <p className="text-gray-700 font-medium">
                   Regular reports and updates so you always know how your campaigns are performing.
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 bg-gradient-to-r from-white to-secondary-50 p-6 rounded-lg border border-primary-200 hover:border-secondary-300 transition-colors">
+            <div className="flex gap-4 bg-white p-6 rounded-lg border border-gray-200 hover:border-secondary-300 transition-colors shadow-sm">
               <div className="text-3xl text-secondary-600 font-bold">✓</div>
               <div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">Customized Solutions</h3>
-                <p className="text-primary-700 font-medium">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Customized Solutions</h3>
+                <p className="text-gray-700 font-medium">
                   Tailored strategies designed specifically for your business needs and goals.
                 </p>
               </div>

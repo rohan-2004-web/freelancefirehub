@@ -126,10 +126,10 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Our Services
             </h2>
-            <p className="text-primary-800 text-lg max-w-2xl mx-auto font-bold">
+            <p className="text-gray-700 text-lg max-w-2xl mx-auto font-bold">
               We offer comprehensive digital marketing solutions to help your business thrive in the digital world.
             </p>
           </div>
@@ -138,13 +138,13 @@ export default function Home() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-l-4 border-secondary-500 hover:border-secondary-600 hover:translate-y-[-8px] group"
+                className="bg-white rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-l-4 border-secondary-500 hover:border-secondary-600 hover:translate-y-[-8px] group"
               >
                 <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
-                <h3 className="text-xl font-bold text-primary-900 mb-3 group-hover:text-secondary-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-secondary-600 transition-colors duration-300">
                   {service.title}
                 </h3>
-                <p className="text-primary-800 font-bold leading-relaxed">
+                <p className="text-gray-700 font-bold leading-relaxed">
                   {service.description}
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-200">
@@ -211,11 +211,11 @@ export default function Home() {
                     <span key={i} className="text-secondary-600 text-lg">★</span>
                   ))}
                 </div>
-                <p className="text-primary-900 mb-6 italic font-medium leading-relaxed">
+                <p className="text-gray-700 mb-6 italic font-medium leading-relaxed">
                   "{testimonial.text}"
                 </p>
                 <div>
-                  <p className="font-bold text-primary-900">{testimonial.name}</p>
+                  <p className="font-bold text-gray-900">{testimonial.name}</p>
                   <p className="text-secondary-600 text-sm font-medium">{testimonial.company}</p>
                 </div>
               </div>
@@ -228,59 +228,59 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-b from-primary-50 to-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Why Choose freelance
             </h2>
-            <p className="text-primary-800 text-lg font-bold">
+            <p className="text-gray-700 text-lg font-bold">
               We're not just another marketing agency. We're your growth partner.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-xl font-bold text-primary-900 mb-3">Data-Driven Approach</h3>
-              <p className="text-primary-800 font-bold">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Data-Driven Approach</h3>
+              <p className="text-gray-700 font-bold">
                 Every decision backed by analytics and real-time insights. We don't guess—we measure, analyze, and optimize for maximum ROI.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">✅</div>
-              <h3 className="text-xl font-bold text-primary-900 mb-3">Proven Track Record</h3>
-              <p className="text-primary-800 font-bold">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Proven Track Record</h3>
+              <p className="text-gray-700 font-bold">
                 100+ successful campaigns across diverse industries. Our portfolio speaks volumes—delivering consistent growth and exceeding targets.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">👥</div>
-              <h3 className="text-xl font-bold text-primary-900 mb-3">Expert Team</h3>
-              <p className="text-primary-800 font-bold">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Expert Team</h3>
+              <p className="text-gray-700 font-bold">
                 Certified professionals with years of experience in SEO, PPC, social media, and content marketing. Your success is our expertise.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-bold text-primary-900 mb-3">ROI Focused</h3>
-              <p className="text-primary-800 font-bold">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">ROI Focused</h3>
+              <p className="text-gray-700 font-bold">
                 We optimize campaigns for maximum return on your investment. Every marketing dollar is tracked and optimized for results.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-white to-primary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-primary-600">
               <div className="text-4xl mb-4">🎨</div>
-              <h3 className="text-xl font-bold text-primary-900 mb-3">Custom Solutions</h3>
-              <p className="text-primary-800 font-bold">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Custom Solutions</h3>
+              <p className="text-gray-700 font-bold">
                 Tailored strategies that align with your unique business goals. No cookie-cutter solutions—just customized excellence.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-white to-secondary-100 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
+            <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-secondary-600">
               <div className="text-4xl mb-4">🕐</div>
-              <h3 className="text-xl font-bold text-primary-900 mb-3">24/7 Support</h3>
-              <p className="text-primary-800 font-bold">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">24/7 Support</h3>
+              <p className="text-gray-700 font-bold">
                 Round-the-clock availability for your campaigns. Whether it's an urgent update or a quick question, we're always here to help.
               </p>
             </div>
@@ -292,10 +292,10 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Our Core Values
             </h2>
-            <p className="text-primary-800 text-lg font-bold">
+            <p className="text-gray-700 text-lg font-bold">
               The principles that guide every decision we make
             </p>
           </div>
@@ -378,37 +378,37 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-secondary-600">300%</div>
-                  <p className="text-primary-700 font-medium">Avg. ROI Increase</p>
+                  <p className="text-gray-700 font-medium">Avg. ROI Increase</p>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-secondary-600">5+</div>
-                  <p className="text-primary-700 font-medium">Years Experience</p>
+                  <p className="text-gray-700 font-medium">Years Experience</p>
                 </div>
               </div>
             </div>
 
             {/* Right Content - 3 Info Cards */}
             <div className="space-y-6">
-              <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
                 <div className="text-4xl mb-4">🎯</div>
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">Our Mission</h3>
-                <p className="text-primary-800 font-bold">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Our Mission</h3>
+                <p className="text-gray-700 font-bold">
                   To empower businesses with innovative digital marketing solutions that drive growth, build brand authority, and create lasting customer relationships.
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-white to-secondary-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
                 <div className="text-4xl mb-4">👁️</div>
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">Our Vision</h3>
-                <p className="text-primary-800 font-bold">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Our Vision</h3>
+                <p className="text-gray-700 font-bold">
                   To become the preferred digital marketing partner for businesses seeking to unlock their full potential in the digital landscape through strategic, data-driven solutions.
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-white to-primary-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all">
                 <div className="text-4xl mb-4">🌟</div>
-                <h3 className="text-2xl font-bold text-primary-900 mb-3">Why Choose Us</h3>
-                <p className="text-primary-800 font-bold">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Why Choose Us</h3>
+                <p className="text-gray-700 font-bold">
                   Expert team + Data-driven strategies + Proven results + Transparent communication + 24/7 support = Your success partner.
                 </p>
               </div>
