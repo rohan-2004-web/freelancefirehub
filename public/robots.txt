@@ -1,4 +1,34 @@
+# Robots.txt for freelance Digital Marketing Agency
+# Last Updated: 2026-02-26
+
+# Allow all bots
 User-agent: *
 Allow: /
 
+# Disallow admin and private areas (if applicable)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+# Sitemap declaration
 Sitemap: https://freelancefirehub.vercel.app/sitemap.xml
+
+# Comment: This robots.txt file allows search engines to crawl all public pages
+# while protecting sensitive areas. The sitemap is referenced for better indexing.

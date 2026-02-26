@@ -1,0 +1,4 @@
+Contact: security@freelancefirehub.vercel.app
+Expires: 2027-02-26T00:00:00.000Z
+Preferred-Languages: en, hi
+Canonical: https://freelancefirehub.vercel.app/.well-known/security.txt
