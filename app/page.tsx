@@ -96,21 +96,6 @@ export default function Home() {
                 </Link>
               </div>
 
-              {/* Stats */}
-              <div className="grid grid-cols-3 gap-4 pt-8">
-                <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
-                  <div className="text-4xl font-bold text-secondary-300">100+</div>
-                  <p className="text-white font-medium">Clients</p>
-                </div>
-                <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
-                  <div className="text-4xl font-bold text-secondary-300">80</div>
-                  <p className="text-white font-medium">Happy Clients</p>
-                </div>
-                <div className="bg-white bg-opacity-10 backdrop-blur p-4 rounded-lg">
-                  <div className="text-4xl font-bold text-secondary-300">5</div>
-                  <p className="text-white font-medium">Years Experience</p>
-                </div>
-              </div>
             </div>
 
             {/* Right Image */}
