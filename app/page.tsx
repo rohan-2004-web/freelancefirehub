@@ -577,8 +577,8 @@ export default function Home() {
                     <div className="text-3xl">✉️</div>
                     <div>
                       <h4 className="font-bold text-main-text mb-1">Email</h4>
-                      <a href="mailto:info@freelance.com" className="text-primary hover:text-primary/80 font-bold">
-                        info@freelance.com
+                      <a href="mailto:saurabhcgoubey200@gmail.com" className="text-primary hover:text-primary/80 font-bold">
+                        saurabhcgoubey200@gmail.com
                       </a>
                     </div>
                   </div>

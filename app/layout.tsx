@@ -137,7 +137,7 @@ export default function RootLayout({
                 addressCountry: "IN",
               },
               telephone: "+91-7307260253",
-              email: "info@freelance.com",
+              email: "saurabhcgoubey200@gmail.com",
               url: "https://freelancefirehub.vercel.app",
               sameAs: [
                 "https://www.facebook.com/freelance",

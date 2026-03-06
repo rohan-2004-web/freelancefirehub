@@ -84,8 +84,8 @@ export default function Contact() {
 
               <div className="bg-card rounded-xl p-8 shadow-md border-l-4 border-primary hover:shadow-lg transition-shadow">
                 <h3 className="text-2xl font-bold text-primary-900 mb-3">📧 Email</h3>
-                <a href="mailto:info@freelance.com" className="text-secondary-600 hover:text-secondary-700 font-bold transition-colors">
-                  info@freelance.com
+                <a href="mailto:saurabhcgoubey200@gmail.com" className="text-secondary-600 hover:text-secondary-700 font-bold transition-colors">
+                  saurabhcgoubey200@gmail.com
                 </a>
                 <p className="text-gray-700 font-medium text-sm mt-2">Send Message</p>
               </div>

@@ -72,8 +72,8 @@ export default function Footer() {
               </li>
               <li className="flex gap-2">
                 <span>📧</span>
-                <a href="mailto:info@freelance.com" className="hover:text-secondary-300 transition-colors">
-                  info@freelance.com
+                <a href="mailto:saurabhcgoubey200@gmail.com" className="hover:text-secondary-300 transition-colors">
+                  saurabhcgoubey200@gmail.com
                 </a>
               </li>
               <li className="flex gap-2">
