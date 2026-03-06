@@ -297,6 +297,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Locations Section */}
+      <section className="py-12 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8 animate-fade-in-down">
+            <h2 className="text-3xl md:text-4xl font-bold text-main-text mb-4">
+              Our Locations
+            </h2>
+            <p className="text-light-text text-lg font-bold">
+              We proudly serve customers in the following cities:
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4 animate-fade-in-up">
+            {['Varanasi','Kanpur','Prayagraj','Patna','Delhi','Noida','Indore','Rewa','Kolkata','Mumbai','Bangalore','Chandigarh'].map((city,idx)=>(
+              <span key={idx} className="px-4 py-2 bg-secondary-100 text-secondary-800 rounded-full">
+                {city}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Core Values Section */}
       <section className="py-20 bg-gradient-to-b from-secondary-50 to-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
