@@ -308,11 +308,15 @@ export default function Home() {
               We proudly serve customers in the following cities:
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-4 animate-fade-in-up">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 animate-fade-in-up">
             {['Varanasi','Kanpur','Prayagraj','Patna','Delhi','Noida','Indore','Rewa','Kolkata','Mumbai','Bangalore','Chandigarh'].map((city,idx)=>(
-              <span key={idx} className="px-4 py-2 bg-secondary-100 text-secondary-800 rounded-full">
-                {city}
-              </span>
+              <div
+                key={idx}
+                className="flex items-center justify-center gap-2 bg-secondary-100 px-4 py-3 rounded-lg hover:shadow-lg transition-shadow w-full"
+              >
+                <span className="text-xl">📍</span>
+                <span className="font-medium text-secondary-800">{city}</span>
+              </div>
             ))}
           </div>
         </div>
