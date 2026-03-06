@@ -130,18 +130,25 @@ export default function Home() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-l-4 border-secondary-500 hover:border-secondary-600 hover:translate-y-[-8px] group animate-fade-in-up"
+                className="relative bg-white/90 rounded-xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
+                {/* decorative circle */}
+                <div className="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br from-primary-200 to-secondary-200 rounded-full opacity-30 transform rotate-45" />
+
+                <div className="flex items-center justify-center w-16 h-16 bg-secondary-100 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-3xl">{service.icon}</span>
+                </div>
+
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-secondary-600 transition-colors duration-300">
                   {service.title}
                 </h3>
                 <p className="text-gray-700 font-bold leading-relaxed">
                   {service.description}
                 </p>
-                <div className="mt-4 pt-4 border-t border-gray-200">
-                  <button className="text-secondary-600 font-bold hover:text-secondary-700 transition-colors">
+
+                <div className="mt-6">
+                  <button className="w-full bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-700 hover:to-secondary-700 text-white px-6 py-3 rounded-lg font-bold transition-all duration-300">
                     Learn More →
                   </button>
                 </div>
